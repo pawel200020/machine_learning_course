@@ -1,0 +1,45 @@
+regresja liniowa:
+    opis danych za pomocą prostej
+    definiowanie bliskości 
+    po współrzędnych a nie rzury prostopadłe
+
+    punkty rzutujemy na oY liczymy odchylenie standardowe i robimy gaussa
+
+    regresja najmniejszych kwadratów
+
+    y(i) z daszkiem wartości przewidywane
+    y(i) z górnym podkreśleniem - średnia z y{i} z daszkiem.
+    R^2 najbardziej popularna metoda oceny modelu ważne!! jeśli zwrócimy średnią z danych to dostaniemy 0
+    jeśli mamy 100 dobre dane to wtedy ssres 0 i 1-0 czyli R^2 = 1
+    0 - blisko średniej
+    1 - idealna predykcja
+    (0-1) dopasowania
+    im bliżej 1 tym lepiej
+    poniżej 0 coś zepsute
+
+    bic - log likelyhood - kara za parametry
+    kara za parametry - jakis wzór
+    model przewiduje średnią z danych 
+
+
+
+którego stopnia wielomianu szukać?
+    model który dobrze opisuje dane i używa jak najmniejszej ilości paramterów
+
+
+bias variance tradeoff
+    bias - miara dopasowania modelu, minimalizowanie biasu - im więcej tym lepiej / im mniej tym lepiej
+        to co rozumiem przez ocenę modelę modelu najczęściej R^2
+    
+    variance - varunek stopu, rozumiany jako stabilność modelu, stabilność jest lepsza niż jakość
+        ważniejszy niż bias. aby to policzyć to trzeba puścić model kilka razy, czy daje podobny wynik, będzie to problematyczne. Podzielić zbiór na części, na każdej puścić model i sprawdzić wyniki jeśli będą takie same to model jest stabilny
+
+        najlepiej dopasowany model przy zapewnieniu stabilności
+        punkt przecięcia na wykresie
+
+
+porównanie za pomocą liczby
+    walidacja krzyżowa - 5 albo 10 części 
+    wybór modelu który ma najlepszą średnią
+    ręcznie podaję stopnie wielomianów
+    komputer zwróci najlepszy.
