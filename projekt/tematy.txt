@@ -1,0 +1,3 @@
+https://www.kaggle.com/datasets/bartoszpieniak/poland-cars-for-sale-dataset?resource=download
+https://www.kaggle.com/datasets/dev0914sharma/car-purchasing-model
+https://www.kaggle.com/datasets/colearninglounge/used-cars-price-prediction
